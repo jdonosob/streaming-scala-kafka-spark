@@ -1,5 +1,30 @@
+.metals/
 *.class
 *.log
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# Avoid all the .folders and the configuration files
+.idea/                 
+.vscode/               
+target/                
+out/                   
+*.iml                  
+*.swp                  
+*.tmp                  
+*.bak                  
+*.DS_Store             
+*.classpath            
+*.project              
+*.settings/            
+logs/                  
+node_modules/          
+dist/                  
+.env                   
+*.jar                  
+*.war                  
+*.ear
+.bloop/
+project/  
+.scala-build/               
